@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: sans-serif;
+}
+
+/* Header */
+
+.hero {
+    background-image: url('/Images/Hero_Background.webp');
+    background-size: cover;
+    height: 700px;
+}
+
+.header {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.65) 70%, transparent);
+    height: 70px;
+    width: 100%;
+    display: Flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+#N {
+    height: 40px;
+    width: 80%;
+}
+
+.logo {
+    height: 6.8rem;
+    width: 10%;
+    padding-top: 70px;
+    padding-left: 45px;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.Home {
+    padding-right: 20px;
+    font-size: 16px;
+}
+
+.navbarright {
+    display: flex;
+    width: 30%;
+}
+
+.pad {
+    padding-right: 30px;
+    font-size: 25px;
+}
+
+.search {
+    padding-right: 25px;
+}
+
+.children {
+    font-size: 16px;
+}
+
+/* hero section */
+
+.herosection {
+    width: 1000px;
+    height: 700px;
+    padding-top: 120px;
+    padding-left: 50px;
+    background: linear-gradient(77deg, rgba(0, 0, 0, .6), transparent 85%);
+}
+
+.herologo {
+    height: 210px;
+    width: 510px;
+    background-image: url('/Images/Hero_Film.webp');
+    background-size: cover;
+    margin-bottom: 15px;
+    padding-bottom: 35px;
+}
+
+.top10 {
+    height: 45px;
+    width: 510px;
+    display: flex;
+    align-items: center;
+}
+
+.top10logo {
+    background-image: url('/Images/Top_10_Logo.png');
+    background-size: cover;
+    height: 45px;
+    width: 9.2%;
+}
+
+.onemovie {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.description {
+    color: white;
+    font-size: 22px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    width: 50vw;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+#button1 {
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    border-radius: 7px;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+}
+
+#button1:hover {
+    opacity: 85%;
+}
+
+#button2 {
+    font-size: 25px;
+    border: none;
+    border-radius: 7px;
+    padding: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(91, 90, 90);
+    color: white;
+}
+
+#button2:hover {
+    opacity: 80%;
+}
+
+.ua {
+    position: absolute;
+    right: 0px;
+    height: 30px;
+    width: 100px;
+    background-color: rgba(91, 90, 90, 0.7);
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid transparent;
+    border-left-color: white;
+}
+
+/* Movie Tiles */
+
+.blockbustermovies {
+    margin-bottom: 33px;
+}
+
+.movietiles {
+    background-color: #141414;
+    height: 1270px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 25px;
+}
+
+.name {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.movies {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 130px;
+}
+
+.common {
+    height: 130px;
+    width: 225px;
+    background-size: cover;
+    border-radius: 4px;
+    transition: all 0.4s linear 0s;
+}
+
+.common:hover {
+    transform: scale(1.15, 1.15);
+}
+
+.F9 {
+    background-image: url('/Images/F9.webp');
+}
+
+.Shutter {
+    background-image: url('/Images/Shutter_Island.webp');
+}
+
+.Yeh {
+    background-image: url('/Images/Yeh_Jawaani_hai_Deewani.webp');
+}
+
+.Taare {
+    background-image: url('/Images/Taare_Zameen_Par.webp');
+}
+
+.Fallout {
+    background-image: url('/Images/Fallout.webp');
+}
+
+.Lucy {
+    background-image: url('/Images/Lucy.webp');
+}
+
+.znmd {
+    background-image: url('/Images/ZNMD.webp');
+}
+
+.fivemovies {
+    margin-bottom: 30px;
+    width: 100vw;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+}
+
+.mov {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.M {
+    height: 200px;
+    width: 250px;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.com {
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background-size: cover;
+    height: 100%;
+    width: 150px;
+    transition: all 0.4s linear 0s;
+}
+
+.com:hover {
+    transform: scale(1.15, 1.15);
+}
+
+.noone {
+    background-image: url(/Images/one.png);
+    background-size: cover;
+    height: 100%;
+    width: 40%;
+}
+
+.posterone {
+    background-image: url(/Images/Friday_Night_Plan.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+}
+
+.notwo {
+    background-image: url(/Images/two.png);
+    background-size: cover;
+    height: 100%;
+    width: 120px;
+}
+
+.postertwo {
+    background-image: url(/Images/Bro.webp);
+}
+
+.nothree {
+    background-image: url(/Images/three.png);
+    background-size: cover;
+    height: 100%;
+    width: 120px;
+}
+
+.posterthree {
+    background-image: url(/Images/Heart_of_stone.jpg);
+}
+
+.nofour {
+    background-image: url(/Images/four.png);
+    background-size: cover;
+    height: 100%;
+    width: 120px;
+}
+
+.posterfour {
+    background-image: url(/Images/A_Day_and_a_half.jpg);
+}
+
+.nofive {
+    background-image: url(/Images/five.png);
+    background-size: cover;
+    height: 100%;
+    width: 120px;
+}
+
+.posterfive {
+    background-image: url(/Images/Adipurush.webp);
+}
+
+.poster1 {
+    background-image: url(/Images/One_Piece.jpg);
+}
+
+.poster2 {
+    background-image: url(/Images/GunsnGulaabs.jpg);
+}
+
+.poster3 {
+    background-image: url(/Images/Who_is_erin_Carter.jpg);
+}
+
+.poster4 {
+    background-image: url(/Images/Ragnarok.jpg);
+}
+
+.poster5 {
+    background-image: url(/Images/Destined_with_you.jpg);
+}
+
+.Friends {
+    background-image: url('/Images/FRIENDS.webp');
+}
+
+.Stranger {
+    background-image: url('/Images/Stranger_Things.jpg');
+}
+
+.Breaking {
+    background-image: url('/Images/Breaking_Bad.webp');
+}
+
+.Peaky {
+    background-image: url('/Images/Peaky_Blinders.jpg');
+}
+
+.Squid {
+    background-image: url('/Images/Squid_Game.jpg');
+}
+
+.Dark {
+    background-image: url('/Images/Dark.jpg');
+}
+
+.Sex_Education {
+    background-image: url('/Images/Sex_Education.jpg');
+}
+
+.Gangs {
+    background-image: url('/Images/Gangs_of_Wasseypur.webp');
+}
+
+.Bahubali {
+    background-image: url('/Images/Bahubali.webp');
+}
+
+.Gangubai {
+    background-image: url('/Images/Gangubai_Kathiawadi.webp');
+}
+
+.RRR {
+    background-image: url('/Images/RRR.webp');
+}
+
+.Inception {
+    background-image: url('/Images/Inception.webp');
+}
+
+.PK {
+    background-image: url('/Images/PK.webp');
+}
+
+.La {
+    background-image: url('/Images/La_La_Land.webp');
+}
+
+/* Footer */
+
+.footer {
+    background-color: #141414;
+    height: 120px;
+    width: 100%;
+}
+
+.socialmediahandle {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.socialmediahandle i {
+    margin-right: 20px;
+}
+
+.copyright {
+    color: rgb(147, 147, 147);
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    padding-right: 18px;
+    padding-top: 15px;
+}
